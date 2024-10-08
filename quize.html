@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>Quiz System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create a Quiz</h1>
+        <form id="createQuizForm">
+            <label for="quizTitle">Quiz Title:</label>
+            <input type="text" id="quizTitle" name="quizTitle" required>
+            <div id="questionsContainer"></div>
+            <button type="button" id="addQuestionBtn">Add Question</button>
+            <button type="submit">Create Quiz</button>
+        </form>
+        
+        <h1>Take a Quiz</h1>
+        <div id="takeQuizContainer"></div>
+        <button id="submitQuizBtn" style="display:none;">Submit Quiz</button>
+        <div id="quizResult"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
